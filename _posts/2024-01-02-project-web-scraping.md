@@ -35,6 +35,7 @@ The initial implementation relied on a stack comprising:
 - PHP for web scraping
 
 ![Old Tools](/portfolio/assets/old-tools.png)
+
 *Some of the existing tools*
 
 ```sh
@@ -49,7 +50,9 @@ mysql -u root --password='omitted'<<!  | sed  '1s/^/\xef\xbb\xbf/' | sed 's/	//g
   !
 exit;
 ```
-^(A lot of it was hardcoded)
+<caption>
+A lot of it was hardcoded
+</caption>
 
 Naturally, maintaining this setup posed challenges, with frequent debugging sessions due to hardcoded elements and the dynamic nature of the website structure. 
 
