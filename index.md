@@ -1,12 +1,11 @@
 ---
-title: Welcome to my blog
+title: hansjunodev's portfolio
 ---
 
-# Table of Contents
-
-1. gis technologies
-2. web scraping
-3. automation
-4. computer vision
-5. packets
-6. functional programming
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
