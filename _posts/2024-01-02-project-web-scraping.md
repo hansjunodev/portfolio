@@ -118,7 +118,7 @@ The biggest hurdle was classifying the tables. They could be roughly categorized
   [
     { "year": "2016", "newlyOpened": 22, "terminationOfAgreement": 0, "termination": 4, "changeOfName": 0 },
     { "year": "2015", "newlyOpened": 5, "terminationOfAgreement": null, "termination": 3, "changeOfName": null },
-    # ... other entries ...
+    // ... other entries ...
   ]
   ```
 
@@ -130,7 +130,7 @@ The biggest hurdle was classifying the tables. They could be roughly categorized
   [
     { "year": 2016, "area": "whole", "whole": 29, "franchiseDealer": 29, "directScore": 0 },
     { "year": 2015, "area": "whole", "whole": 11, "franchiseDealer": 11, "directScore": null },
-    # ... other entries ...
+    // ... other entries ...
   ]
   ```
 
