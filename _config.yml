@@ -1,6 +1,2 @@
 theme: minima
-defaults:
-  - scope:
-      path: "assets"
-    values:
-      image: true
+BASE_PATH : /portfolio
