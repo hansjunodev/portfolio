@@ -13,16 +13,15 @@ To the best of my memory, this is how it went:
 
 1. Scrape [franchise.ftc.go.kr](https://franchise.ftc.go.kr/mnu/00013/program/userRqst/list.do) for data on all franchises in the country.
 
-![Franchise Data](/portfolio/assets/table-example.png)
-^(One table out of many)
+    ![Franchise Data](/portfolio/assets/table-example.png)
 
 2. Transform, normalize, and store the data.
 
-![Data Transformation](/portfolio/assets/db-rowcount.png)
+    ![Data Transformation](/portfolio/assets/db-rowcount.png)
 
 3. Query and present in a CSV format.
 
-![CSV Presentation](/portfolio/assets/csv-files.png)
+    ![CSV Presentation](/portfolio/assets/csv-files.png)
 
 4. The client, a consulting firm, curates and sells this data as part of a handbook to their customers.
 
@@ -36,7 +35,7 @@ The initial implementation relied on a stack comprising:
 - PHP for web scraping
 
 ![Old Tools](/portfolio/assets/old-tools.png)
-^(Some of the existing tools)
+*Some of the existing tools*
 
 ```sh
 # makeBrandRaw.sh
@@ -134,7 +133,7 @@ The biggest hurdle was classifying the tables. They could be roughly categorized
   ]
   ```
 
-I don't remember my exact thought process, but the questions I had were something like:
+I don't remember my exact thought process, but the questions I had were:
 - If there are `<th>` tags in the `<body>`, is that a 1D table? 
 - If there is only 1 `<tr>` in `<thead>`, is that a 2D table? 
 - If there are any `rowspan` or `colspan` attributes, is that a layered 2D table? 
