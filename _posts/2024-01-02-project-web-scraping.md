@@ -141,7 +141,7 @@ I don't remember my exact thought process, but the questions I had were somethin
 - How should layered tables be flattened? 
 - Should the first column be treated as another header or a data field? 
 
-I started listing out the attributes that gave each table their identity but couldn't come up with a satisfying, all-encompassing answer. After googling around to no avail, I admitted defeat and took the easy way out. The parsing had to be hardcoded for sure, as it changed on a case-by-case basis, so I might as well hardcode the classification along with it. 
+I started listing out the attributes that gave each table their identity but couldn't come up with a satisfying, all-encompassing answer. After googling around to no avail, I took the easy way out. The parsing had to be hardcoded as it changed on a case-by-case basis, so I might as well hardcode the classification along with it. 
 
 I ended up creating a heuristic using a predefined map of table names to field names for classification.
 
