@@ -50,9 +50,6 @@ mysql -u root --password='omitted'<<!  | sed  '1s/^/\xef\xbb\xbf/' | sed 's/	//g
   !
 exit;
 ```
-<caption>
-A lot of it was hardcoded
-</caption>
 
 Naturally, maintaining this setup posed challenges, with frequent debugging sessions due to hardcoded elements and the dynamic nature of the website structure. 
 
