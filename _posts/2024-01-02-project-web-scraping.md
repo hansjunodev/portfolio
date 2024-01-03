@@ -18,11 +18,11 @@ To the best of my memory, this is how it went:
 
 2. Transform, normalize, and store the data.
 
-![Data Transformation](/assets/db-rowcount.png)
+![Data Transformation](/portfolio/assets/db-rowcount.png)
 
 3. Query and present in a CSV format.
 
-![CSV Presentation](assets/csv-files.png)
+![CSV Presentation](/portfolio/assets/csv-files.png)
 
 4. The client, a consulting firm, curates and sells this data as part of a handbook to their customers.
 
@@ -35,7 +35,7 @@ The initial implementation relied on a stack comprising:
 - Shell scripts for database operations and CSV generation
 - PHP for web scraping
 
-![Old Tools](assets/old-tools.png)
+![Old Tools](/portfolio/assets/old-tools.png)
 ^(Some of the existing tools)
 
 ```sh
@@ -104,7 +104,7 @@ The biggest hurdle was classifying the tables. They could be roughly categorized
 
 - **1-Dimensional Table**:
 
-![1D Table](assets/1d-table.png)
+![1D Table](/portfolio/assets/1d-table.png)
 
   ```json
   { "name": "JEONGMI FOOD", "businessSigns": "Hoya Chicken", "representative": "Jaegu Kang", ... }
@@ -112,7 +112,7 @@ The biggest hurdle was classifying the tables. They could be roughly categorized
 
 - **2-Dimensional Table**:
 
-![2D Table](assets/2d-table.png)
+![2D Table](/portfolio/assets/2d-table.png)
 
   ```json
   [
@@ -124,7 +124,7 @@ The biggest hurdle was classifying the tables. They could be roughly categorized
 
 - **2-Dimensional Layered Table**:
 
-![2D Layered Table](assets/2d-layered-table.png)
+![2D Layered Table](/portfolio/assets/2d-layered-table.png)
 
   ```json
   [
