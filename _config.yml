@@ -1,2 +1,3 @@
 theme: minima
-BASE_PATH : /portfolio
+url: 'https://hansjunodev.github.io/'
+baseurl: 'portfolio/'
