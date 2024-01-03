@@ -13,12 +13,12 @@ To the best of my memory, this is how it went:
 
 1. Scrape [franchise.ftc.go.kr](https://franchise.ftc.go.kr/mnu/00013/program/userRqst/list.do) for data on all franchises in the country.
 
-![Franchise Data](portfolio/assets/table-example.png)
+![Franchise Data](/portfolio/assets/table-example.png)
 ^(One table out of many)
 
 2. Transform, normalize, and store the data.
 
-![Data Transformation](assets/db-rowcount.png)
+![Data Transformation](/assets/db-rowcount.png)
 
 3. Query and present in a CSV format.
 
