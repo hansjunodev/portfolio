@@ -93,11 +93,11 @@ We can create a Window class:
 class Window:
     def __init__(self, handle) -> None:
         self.handle = handle
-	
-	def activate(self) -> None:
-		shell = win32com.client.Dispatch("WScript.Shell")
-		shell.SendKeys("%")
-		win32gui.SetForegroundWindow(self.handle)
+    
+    def activate(self) -> None:
+        shell = win32com.client.Dispatch("WScript.Shell")
+        shell.SendKeys("%")
+        win32gui.SetForegroundWindow(self.handle)
 ```
 
 And a helper function:
@@ -112,17 +112,17 @@ Or extend the Window class:
 
 ```python
 class Window:
-	@contextmanager
-	def activate_momentarily(self, *args, **kwargs) -> None:
-		# Save the current window.
-		prev_window = get_foreground_window()		
-		try:
-			# Activate the target window.
-			self.activate(*args, **kwargs)
-			yield
-		finally:
-			# Return control to the previous window.
-			prev_window.activate(*args, **kwargs)
+    @contextmanager
+    def activate_momentarily(self, *args, **kwargs) -> None:
+        # Save the current window.
+        prev_window = get_foreground_window()		
+        try:
+            # Activate the target window.
+            self.activate(*args, **kwargs)
+            yield
+        finally:
+            # Return control to the previous window.
+            prev_window.activate(*args, **kwargs)
 ```
 
 So we can do this:
@@ -130,7 +130,7 @@ So we can do this:
 ```python
 telegram = find_window(None, "Telegram")
 with telegram.activate_momentarily():
-	telegram.write("Hello World!")
+    telegram.write("Hello World!")
 ```
 
 Anyway, that's it! Happy automating!
