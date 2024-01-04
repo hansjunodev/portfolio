@@ -7,7 +7,7 @@ Project date: ~2021
 
 [View on GitHub](https://github.com/hansjunodev/window-utils)
 
-There is something very satisfying watching a bot to do tedious tasks for me while I sit back and relax. It feels like I'm making progress without lifting a finger.
+There is something very satisfying watching a bot do tedious tasks for me while I sit back and relax. It feels like I'm making progress without lifting a finger.
 
 ![Automation](https://imgs.xkcd.com/comics/automation.png)
 
@@ -25,7 +25,7 @@ Python is usually my language of choice for these things because 1) writing Pyth
 
 Here are three packages that can all accomplish the task for us:
 - **[PyAutoGUI](https://github.com/asweigart/pyautogui)** - the package featured on "[automate the boring stuff with python](https://automatetheboringstuff.com/2e/chapter20/)"
-- **[pywinauto](https://github.com/pywinauto/pywinauto)** - the premier automation package for windows UI elements
+- **[pywinauto](https://github.com/pywinauto/pywinauto)** - the premier automation package for manipulating windows UI
 - **[ahk](https://github.com/spyoungtech/ahk)** - a Python wrapper for [AutoHotkey](https://www.autohotkey.com/), an open-source automation scripting language
 
 ```python
