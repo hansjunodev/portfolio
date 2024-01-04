@@ -87,7 +87,7 @@ Now that we know how to find and activate a window, we can do cool things with i
 
 We can create a Window class:
 
-```Python
+```python
 class Window:
     def __init__(self, handle) -> None:
         self.handle = handle
@@ -100,7 +100,7 @@ class Window:
 
 And a helper function:
 
-```Python
+```python
 def find_window(class_name, window_title) -> Window:
     handle = win32gui.FindWindow(class_name, window_title)
     return Window(handle)
@@ -108,7 +108,7 @@ def find_window(class_name, window_title) -> Window:
 
 Or extend the Window class:
 
-```Python
+```python
 class Window:
 	@contextmanager
 	def activate_momentarily(self, *args, **kwargs) -> None:
