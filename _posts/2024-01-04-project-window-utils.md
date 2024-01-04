@@ -5,7 +5,7 @@ date: 2024-01-04
 
 Project date: ~2021
 
-There is something very satisfying watching a bot to do tedious tasks for you while you sit back and relax. It feels like you're making progress without lifting a finger.
+There is something very satisfying watching a bot to do tedious tasks for me while I sit back and relax. It feels like I'm making progress without lifting a finger.
 
 ![Automation](https://imgs.xkcd.com/comics/automation.png)
 
@@ -42,7 +42,7 @@ win = ahk.find_window(title='Untitled - Notepad') # Find the opened window
 win.activate()
 ```
 
-These packages are great but they can be overkill depending on your need. They come loaded with a bunch of features that we may simply never need. 
+These packages are great but they can be overkill depending on our need. They come loaded with a bunch of features that we may simply never need. 
 
 To write our own window-activator, we'll use the pywin32 package which provides acess to Windows APIs. We could use ctypes as well but I think this method is more accessible. 
 
@@ -53,7 +53,7 @@ handle = win32gui.FindWindow(None, "Untitled - Notepad")
 win32gui.SetForegroundWindow(handle)
 ```
 
-Easy. Now we can activate any window we desire. But what if I want to change focus to a different window while I'm actively using a *different* window?
+Easy. Now we can activate any window we desire. But what if we want to change focus to a different window while we're actively using a *different* window?
 
 Going back to the documentation for [SetForegroundWindow](https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-setforegroundwindow), it says:
 
