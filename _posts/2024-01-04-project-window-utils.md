@@ -5,6 +5,8 @@ date: 2024-01-04
 
 Project date: ~2021
 
+[View on GitHub](https://github.com/hansjunodev/window-utils)
+
 There is something very satisfying watching a bot to do tedious tasks for me while I sit back and relax. It feels like I'm making progress without lifting a finger.
 
 ![Automation](https://imgs.xkcd.com/comics/automation.png)
@@ -131,7 +133,7 @@ with telegram.activate_momentarily():
 	telegram.write("Hello World!")
 ```
 
-[View on GitHub](https://github.com/hansjunodev/window-utils)
+Anyway, that's it! Happy automating!
 
 
 
