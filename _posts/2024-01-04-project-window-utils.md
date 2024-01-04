@@ -5,15 +5,19 @@ date: 2024-01-04
 
 Project date: ~2021
 
-There is something very satisfying watching a bot to do tedious tasks for you while you sit back and relax. You feel like you're making progress without lifting a finger.
+There is something very satisfying watching a bot to do tedious tasks for you while you sit back and relax. It feels like you're making progress without lifting a finger.
 
 ![Automation](https://imgs.xkcd.com/comics/automation.png)
 
+*Automation - https://xkcd.com/1319/*
+
 # Changing the Active Window, on Windows
 
-I enjoy automating things. Something that's common to nearly every task is getting and changing the active window.
+I enjoy automating things. Something that's required for nearly every task is getting and changing the active window.
 
 ![The alt-tab experience](https://www.windowslatest.com/wp-content/uploads/2020/07/Alt-Tab-with-browser-tabs-1024x572.jpg)
+
+*The Alt-Tab experience*
 
 Python is usually my language of choice for these things because 1) writing Python code is just a delight and 2) Python being as popular as it is, has lots of support for automation. 
 
