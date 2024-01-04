@@ -44,7 +44,7 @@ win = ahk.find_window(title='Untitled - Notepad') # Find the opened window
 win.activate()
 ```
 
-These packages are great but they can be overkill depending on our need. They come loaded with a bunch of features that we may simply never need. 
+These packages are great but they can be overkill because they come loaded with a boatload of features that we likely won't use.
 
 To write our own window-activator, we'll use the pywin32 package which provides acess to Windows APIs. We could use ctypes as well but I think this method is more accessible. 
 
